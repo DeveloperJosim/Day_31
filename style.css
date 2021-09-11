@@ -1,0 +1,381 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans' , sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+.header img {
+    width: 50px;
+}
+
+
+
+/*      banner_section css      */
+
+
+.banner_section {
+    background: url(img/mbr-10.jpg) center no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner_section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+.banner_content h2 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+.banner_content h6 {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+
+.number_counter_item h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
+
+
+/*    about_section css    */
+
+
+.about_section {
+    background-color: #f7f9ff;
+}
+.about_text h2 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+.about_text p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+
+
+/*    featuer_section css    */
+
+
+
+.featuer_section {
+    padding: 60px 0;
+}
+
+.featuer_item {
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+.featuer_img {
+    width: 35%;
+    height: 100%;
+
+}
+
+.featuer_img img {
+    width: auto !important;
+    height: 100% !important;
+    border-radius: 5px 0 0 5px;
+}
+
+.featuer_text {
+    width: 65%;
+}
+
+.featuer_text h4 {
+    font-size: 20px;
+}
+
+.anather_section h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.anather_section p {
+    color: #676767;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+
+/*     protfolio_section css     */
+
+
+.protfolio_item a{
+    position: relative;
+    display: block;
+}
+.protfolio_item a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6279df9a;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+.protfolio_item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*   pricing-table css    */
+
+
+.pricing-table{
+    background-color: #f7f9ff;
+}
+.pricing-table h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+.pricing-table p {
+    color: #767676;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.pricing-item{
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    border-radius: 5px;
+    background-color: #fff;
+
+    transition: .5s;
+}
+.pricing-item:hover .pricing-btn{
+    color: #fff;
+    background-color: #6d82e1;
+}
+.pricing-item .pricing-btn:hover{
+    color: #fff;
+    background-color: black;
+}
+.pricing-item h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+.pricing-item h4 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: -30px;
+}
+.pricing-item ul li {
+    font-size: 22px;
+    color: #767676;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.pricing-item ul li span {
+    color: #7286e2;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+.pricing-btn {
+    color: #7286e2;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin-top: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.p-b-1 {
+    margin-bottom: 30px;
+}
+
+
+
+/*     testimonial-section css    */
+
+
+.testimonial-section h5 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+    margin: 20px 0;
+}
+.testimonial-section h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.testimonial-section span{
+    font-size: 75px;
+    color: #efefef;
+}
+.testimonial-section p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #767676;
+}
+.Tinform {
+    width: 205px;
+    margin: auto;
+}
+.Tinform img {
+    width: 70px;
+    height: auto;
+}
+.Tdetails{
+    padding-top: 10px;
+}
+.Tdetails h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.Tdetails p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -62px;
+    display: inline-block;
+}
+
+
+/*     about-section css    */
+
+
+.about-section p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.about-section h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.about-item {
+    margin-top: 90px;
+}
+.about-item img {
+    width: 135px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+.about-item h4 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.about-item h6 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.about-item p {
+    font-size: 15px;
+    color: #767676;
+    margin-left: 15px;
+}
+.about-item .btn {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    color: #465057;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.about-item .btn:hover{
+    color: #fff;
+    background-color: #465057;
+}
+
+
+
+/*     contact-section css     */
+
+
+.contact-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #767676;
+}
+.contact-section h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.contact-form .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.contact-form h4 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.contact-form .btn {
+    color: #fff;
+    background-color: #6278df;
+    border: 2px solid #6278df;
+    padding: 15px 35px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact-form input {
+    padding: 20px;
+    
+}
+.contact-form input:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    border: 1px solid #6278df;
+}
+.contact-form .tarea:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    border: 1px solid #6278df;
+}
+.contact-form .tarea {
+    height: 150px;
+}
+.contact-form .btn:hover{
+    color: #6278df;
+    background-color: #fff;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+
+/*     footer-section css   */   
+
+
+.footer-section{
+    background-color: #f7f9ff;
+}
+.footer-section p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
